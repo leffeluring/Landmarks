@@ -27,5 +27,7 @@ struct LandmarkRow_Previews: PreviewProvider {
             .previewLayout(.fixed(width: 50, height: 70))
         LandmarkRow(landmark: landmarks[2])
             .previewLayout(.fixed(width: 300, height: 70))
+        LandmarkRow(landmark: landmarks[3])
+            .previewLayout(.fixed(width: 300, height: 70))
     }
 }
